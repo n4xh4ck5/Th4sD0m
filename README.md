@@ -11,13 +11,15 @@ pip install -r requirements.txt
 
 Example of usage: python th4sd0m.py -i DIRECTION_IP -n 4 -e Y
 
+
 usage: th4sd0m.py [-h] -i IP -n NUM [-e EXPORT]
+
 
 This script identifies all domains contained in an IP
 
 optional arguments:
 
-  -h, --help            show this help message and exit
+  -h, --help          <pre> show this help message and exit</pre>
   
   -i IP, --ip IP       The IP which wants to search
  
