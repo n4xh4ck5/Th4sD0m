@@ -5,21 +5,25 @@ Tool to identify all domains contained in an IP anonymously
 
 Install requirements with:
 
-pip install -r requirements.txt
+<pre> pip install -r requirements.txt </pre>
 
 #How to use:
 
-Example of usage: python th4sd0m.py -i DIRECTION_IP -n 4 -e Y
+Example of usage: 
+
+<pre>python th4sd0m.py -i DIRECTION_IP -n 4 -e Y</pre>
 
 
-usage: th4sd0m.py [-h] -i IP -n NUM [-e EXPORT]
+<pre>usage: th4sd0m.py [-h] -i IP -n NUM [-e EXPORT]</pre>
 
 
 This script identifies all domains contained in an IP
 
 optional arguments:
 
-  -h, --help          <pre> show this help message and exit</pre>
+<pre>
+
+  -h, --help          show this help message and exit
   
   -i IP, --ip IP       The IP which wants to search
  
@@ -29,3 +33,4 @@ optional arguments:
   -e EXPORT, --export EXPORT
   
                         Export the results to a json file (Y/N)
+ </pre>
